@@ -1,0 +1,734 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@500&family=Merriweather:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+/* #page-container {
+  position: absolute;
+  min-height: 100vh;
+}
+
+#content-body {
+  padding-bottom: 2.5rem;
+} */
+
+.btn {
+  margin: 0 20px !important;
+}
+
+.navbar {
+  margin: auto;
+  background-color: #d6e3f8  !important;
+}
+
+.nav-link {
+  font-family: "Merriweather Sans" !important;
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000 !important;
+}
+#contact-btn {
+  width: 118px;
+  height: 39px;
+  background: #000000 !important;
+  border-radius: 5px;
+  color: #fff !important;
+}
+
+.carousel-bg {
+  background: #d6e3f8;
+  height: 512px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  display: none !important;
+}
+
+.carousel-indicators {
+  flex-direction: column;
+  bottom: 50% !important;
+  left: 70%;
+}
+.carousel-indicators button {
+  width: 15px !important;
+  height: 15px !important;
+  border-radius: 50%;
+}
+
+.carousel-image,
+.alt-image {
+  width: 500px;
+  height: 512px;
+}
+.carousel-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 20%;
+}
+.alt-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.caption-alt {
+  font-family: "Merriweather";
+  font-style: normal;
+  color: #3d3b3c;
+  text-align: start;
+  width: 40%;
+  position: absolute;
+  top: 20%;
+}
+.carousel-caption h4 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 23px;
+  color: #3d3b3c;
+}
+.carousel-caption h5 {
+  font-weight: 900;
+  font-size: 46px;
+  color: #3d3b3c;
+  line-height: 70px;
+}
+.carousel-caption p {
+  font-size: 18px;
+  line-height: 27px;
+  color: #3d3b3c;
+}
+
+.carousel-grid {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.carousel-indicators .active {
+  background-color: #fbc507;
+}
+
+.caption2 {
+  position: absolute;
+  top: 20%;
+  left: 45%;
+  text-align: start;
+}
+
+.services-section {
+  width: 70%;
+  margin: 3rem auto;
+}
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 2rem;
+}
+
+.headers {
+  font-family: "Merriweather Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 60px;
+  color: #3d3b3c;
+}
+.services-section h5 {
+  font-family: "Merriweather Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #3d3b3c;
+  margin-top: 2rem;
+}
+.services-section p {
+  font-family: "Merriweather Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #3d3b3c;
+  opacity: 0.5;
+  text-align: start;
+}
+
+.circle-bg {
+  width: 54px;
+  height: 54px;
+  background: #f08080;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  color: #fff;
+}
+.learn-more a {
+  font-family: "Merriweather Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #f08080;
+}
+
+.btn {
+  font-family: "Merriweather Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #3d3b3c;
+}
+
+.carousel-btn1 {
+  width: 168px;
+  height: 40px;
+  background: #fff;
+  border-radius: 5px;
+}
+.carousel-btn2 {
+  width: 168px;
+  height: 40px;
+  background: #fbc507;
+  border-radius: 5px;
+}
+.service-btn {
+  display: grid;
+  place-items: center;
+  margin: auto;
+}
+
+.client-section {
+  width: 100%;
+  height: 300px;
+  background: #f6faff;
+}
+
+.client-section p {
+  font-family: "Merriweather Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #736a6e;
+}
+.client-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  place-items: center;
+  grid-gap: 1rem;
+  width: 75%;
+  margin: auto;
+}
+
+.good-hands-section {
+  background: #3d3b3c;
+  width: 100%;
+  margin: auto;
+}
+
+.about-img {
+  width: 28%;
+  height: 30%;
+}
+.about-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.about-text {
+  font-family: "Merriweather Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #736a6e;
+}
+
+.good-hands-section h1 {
+  font-family: "Merriweather Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 60px;
+  color: #fbc507;
+  margin-bottom: 0 !important;
+  margin-top: 35px;
+}
+.good-hands-section p {
+  font-family: "Merriweather Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.good-hands-section h5 {
+  width: 273px;
+  height: 105px;
+  
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  margin-top: -29px;
+  
+  color: #FFFFFF;
+}
+.contact-btn2 {
+  width: 100%;
+  height: 40px;
+  background: #fbc507;
+  border-radius: 5px;
+  margin: 0 !important;
+}
+.contact-section h6 {
+  font-family: "Merriweather Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #fbc507;
+}
+.contact-section {
+  padding: 5rem 7rem 2rem 7rem;
+}
+
+.secondChild {
+  background-image: url("./images/form.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 485px;
+  padding: 2.5rem;
+}
+
+.footer {
+  background: #3d3b3c;
+  width: 100%;
+  height: fit-content;
+}
+
+.main_good-grid {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.sub_good-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  place-items: center;
+}
+.footer {
+  position: relative;
+  bottom: 0%;
+  height: 250px;
+  margin: auto;
+  color: #fff;
+}
+.footer li {
+  list-style: none;
+}
+
+.circle-yellow_bg {
+  width: 40px;
+  height: 40px;
+  background: #fccc08;
+  font-size: 24px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  color: #000000;
+  text-align: center;
+}
+
+.logo-socials {
+  width: 214px;
+  height: 152px;
+}
+
+.footer-content {
+  margin: auto;
+  padding: 3rem 0;
+}
+
+.contact-div ul {
+  padding-left: 0 !important;
+}
+.services-div ul {
+  padding-left: 0 !important;
+}
+.contact-services {
+  width: 550px;
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+}
+.contact-services h6{
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+}
+@media screen and (min-width: 1606px) and (max-width: 2560px){
+  .mobile{
+    display: none;
+  }
+  .mobile2{
+    display: none;
+  }
+  .footer{
+    height: auto !important;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1605px) {
+ .mobile{
+  display: none;
+ }
+ .mobile2{
+  display: none;
+ }
+ .footer{
+  height: auto !important;
+ }
+ .col-3{
+  width: 35%;
+ }
+}
+@media (min-width:769px) and (max-width: 1024px) {
+.mobile {
+  display: none;
+}
+.mobile2{
+  display: none;
+}
+.col-3 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 40%;
+}
+.info{
+  margin-left: 12px;
+}
+.footer {
+  height: auto !important;
+}
+.footer-content{
+  display: flex !important;
+  flex-direction: row;
+}
+.footer-col{
+  margin-left: 0px !important;
+}
+}
+@media (min-width: 768px) and (max-width: 812px){
+  .secondChild{
+    justify-content: space-between !important;
+  }
+}
+@media (min-width: 740px) and (max-width: 768px) {
+.serv{
+  margin-left: 0px;
+}
+}
+@media (min-width:280px) and (max-width:768px) {
+  .web {
+    display: none !important;
+  }
+  body {
+    padding-right: 0% !important;
+    width: 100%;
+  }
+  .man {
+    display: none !important;
+  }
+  .navbar {
+    background-color: #fff !important;
+  }
+  .title {
+    font-weight: bold !important;
+  }
+.bn{
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+  .nav1-logo {
+    margin-left: -40px !important;
+  }
+
+  .nav-logo{
+    margin-left: -90px !important
+  }
+
+  .carousel-bg {
+    background: #d6e3f8;
+    height: 100%;
+    width: 100%;
+  }
+  .carousel-image{
+    display: flex;
+  }
+  .carousel-btn1, .carousel-btn2{
+    width: 113px;
+  }
+  .mobile {
+    width:auto;
+  }
+
+  .mobile2 {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    margin-left: 0;
+    height: auto;
+    padding: 0px;
+  }
+  .services-section{
+    padding-left: 25px;
+  }
+  .frame {
+    height: auto;
+    margin-left: 0px;
+    width: 80%;
+    margin-top: 40px !important;
+  }
+.contact-btn2{
+  margin-top: 35px !important;
+  position: relative;
+  bottom: 30px;
+}
+  .massage {
+    height: auto;
+    margin-top: 50px;
+    width: auto;
+  }
+
+  .accordion-button {
+    padding-bottom: 5px;
+  
+  }
+
+  .circle-bg {
+    height: 35px;
+    width: 35px;
+    margin-top: -15px;
+    margin-right: 10px;
+  }
+
+  .our {
+    margin-left: -30px;
+    margin-top: -10px;
+  }
+  .carousel-caption h4 {
+    display: flex;
+     margin-right: 40px;
+  }
+.trust {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: -50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  
+}
+.trust h5 {
+  margin-left: -25px;
+  margin-top: 40px;
+  margin-bottom: 28px;
+  font-weight: 900;
+  font-size: 46.9767px;
+  line-height: 59px;
+  text-align: center;
+}
+.contact-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-us h5{
+  text-align: center;
+  display: contents;
+}
+.contact-services{
+  width: 100%;
+  padding-left: 25px;
+}
+.contact-div{
+  display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+}
+.footer{
+  height: auto !important;
+}
+
+.trust p {
+  display: flex;
+}
+
+.bn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+
+.carousel-indicators .active {
+  background-color: #fbc507;
+  display: none;
+}
+
+.carousel-indicators [data-bs-target] {
+  display: none;
+}
+
+.carousel-caption h4 {
+  margin-right: 40px;
+}
+.client {
+  margin-left: 10px;
+  text-align: left !important;
+  width: fit-content;
+}
+
+.c {
+  font-size: 15px !important;
+}
+.client-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  gap: 20px;
+  width: auto;
+  height: 64px;
+}
+.client-grid img {
+  width: 80px !important;
+}
+
+.about {
+  width: fit-content;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: -5px !important;
+}
+
+.see {
+  display: flex !important;
+  margin-top: 2px !important;
+  margin-bottom: 2px !important;
+}
+
+
+
+.hands {
+  width: 300px;
+  margin-top: 25px;
+}
+
+.good{
+ 
+  margin-left: 5px !important;
+}
+
+.footer {
+  background: #3d3b3c;
+  width: 100%;
+  height: fit-content;
+}
+
+.footer {
+  position: relative;
+  bottom: 0%;
+  height: 930px;
+  margin: auto;
+  color: #fff;
+  
+  
+} 
+
+.contact-services { 
+  line-height: 40px;
+}
+
+.inc{
+  margin-top: -25px !important;
+}
+
+.footer-col{
+  margin-left: 134px; margin-top: 10px !important;
+}
+
+.footer-logo{
+  margin-bottom: 35px !important; margin-left: 23px;
+}
+
+.footer-img{
+  margin-top: -18px;
+   width: 50px;
+
+
+}
+
+.location {
+  display: flex;
+                      flex-direction: row;
+                      align-items: flex-start;
+                      padding: 0px;
+                      gap: 26px;
+                      margin-top: 30px;
+                    
+                      height: 84px;
+}
+
+.location-img {
+  width: 50px;
+}
+
+.link{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+  margin-top: 30px;
+  width: 276px;
+  height: 84px;
+
+}
+
+.link-img{
+  margin-top: -17px; width: 50px;
+}

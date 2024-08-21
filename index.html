@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HOVERPORT | HOME</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="page-container">
+      <div id="content-body">
+        <nav class="navbar navbar-expand-lg row mb-1">
+          <div class="container-fluid">
+            <div class="container col-6" style="margin-left: 0;">
+              <a class="navbar-brand" href="/index.html">
+                <img src="./images/hoverport.png" alt="Bootstrap" class="nav1-logo"/>
+              </a>
+            </div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarTogglerDemo02"
+              aria-controls="navbarTogglerDemo02"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav collapse navbar-collapse justify-content-end col-6" id="navbarTogglerDemo02">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="/about.html"
+                    >About Us</a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="/services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link btn" href="#contact" type="button" id="contact-btn"
+                    >Contact Us</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <section>
+          <div
+            id="carouselExampleCaptions"
+            class="carousel slide carousel-bg"
+            data-bs-ride="false"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1" 
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="carousel-image">
+                  <img src="./images/slider2.svg" class="man d-block" alt="..." />
+                </div>
+                <div class=" trust carousel-caption caption-alt d-none d-md-block">
+                  <h4>Your Trusted</h4>
+                  <h5>
+                    Debt Recovery <br />
+                    Expert
+                  </h5>
+                  <p>
+                    Some lorem ipsum dolor sit amet consectetur. Velit nunc
+                    iaculis orci urna eget enim.
+                  </p>
+                  <div class="bn">
+                    <button type="btn" class="btn carousel-btn1 mr-5">
+                      Learn More
+                    </button>
+                    <button type="btn" class="btn carousel-btn2">
+                      Contact Us
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="alt-image">
+                  <img src="./images/slider1.svg"  class=" man d-block" alt="..." />
+                </div>
+                <div class="carousel-caption caption2 d-none d-md-block">
+                  <h4>Your Trusted</h4>
+                  <h5>IT Consultancy <br />Expert</h5>
+                  <p>
+                    Some representative placeholder content for the second
+                    slide.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+
+        <section class=" web services-section mb-5">
+          <h4 class="header mb-5">Our Services</h4>
+          <div class="service-grid mb-5">
+            <div>
+              <div>
+                <div class="circle-bg">
+                  <i class="fa-solid fa-handshake-angle"></i>
+                </div>
+                <h5>Consulting</h5>
+                <p>
+                  We offer a wide range of global business solutions to help
+                  SMEs succeed in international markets including, international
+                  business development, market research, feasibility studies,
+                  market analysis<br />
+                  and selection.
+                </p>
+              </div>
+
+              <div class="learn-more">
+                <a href="#">Learn More</a>
+              </div>
+            </div>
+            <div>
+              <div>
+                <div class="circle-bg">
+                  <i class="fa-solid fa-file-waveform"></i>
+                </div>
+                <h5>Document Management</h5>
+                <p>
+                  The document management and workflow solutions offered by
+                  HoverPort Nigeria ensure that the entire flow is controlled to
+                  ensure timely movement of duly authorized data.
+                </p>
+              </div>
+
+              <div class="learn-more mt-5">
+                <a href="#">Learn More</a>
+              </div>
+            </div>
+            <div>
+              <div>
+                <div class="circle-bg">
+                  <i class="fa-solid fa-money-bill"></i>
+                </div>
+                <h5>Debt Recovery</h5>
+                <p style="width: 308px;">
+                  We are experts in debt recovery, and our experienced debt
+                  collectors are dedicated to helping you recover your
+                  outstanding debts. Our team has the knowledge and expertise to
+                  navigate the complex process of debt recovery.
+                </p>
+              </div>
+
+              <div class="learn-more mt-5">
+                <a href="#">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="row d-flex justify-content-center mt-5">
+            <button type="button" class="btn carousel-btn2">
+              More Services <span><i class="fa-solid fa-arrow-right"></i></span>
+            </button>
+          </div>
+        </section>
+
+
+  
+        <section class="mobile services-section mb-5">
+          <h4 class="header mb-5">Our Services</h4>
+          <div class="service-grid mb-5">
+            <div>
+              <div>
+                <div class="circle-bg">
+                  <i class="fa-solid fa-handshake-angle"></i>
+                </div>
+                <h5>Consulting</h5>
+                <p >
+                  We offer a wide range of global business solutions to help
+                  SMEs succeed in international markets including, international
+                  business development, market research, feasibility studies,
+                  market analysis<br />
+                  and selection.
+                </p>
+              </div>
+              
+              <div class="learn-more">
+                <a href="#">Learn More</a>
+              </div>
+            </div>
+            <div>
+              <div>
+                <div class="circle-bg">
+                  <i class="fa-solid fa-file-waveform"></i>
+                </div>
+                <h5>Document Management</h5>
+                <p>
+                  The document management and workflow solutions offered by
+                  HoverPort Nigeria ensure that the entire flow is controlled to
+                  ensure timely movement of duly authorized data.
+                </p>
+              </div>
+
+              <div class="learn-more mt-7">
+                <a href="#">Learn More</a>
+              </div>
+            </div>
+            <div>
+              <div>
+                <div class="circle-bg">
+                  <i class="fa-solid fa-money-bill"></i>
+                </div>
+                <h5>Debt Recovery</h5>
+                <p>
+                  We are experts in debt recovery, and our experienced debt
+                  collectors are dedicated to helping you recover your
+                  outstanding debts. Our team has the knowledge and expertise to
+                  navigate the complex process of debt recovery.
+                </p>
+              </div>
+
+              <div class="learn-more mt-3">
+                <a href="#">Learn More</a>
+              </div>
+            </div>
+          </div>
+         
+        </section>
+
+
+        <section class=" mobile client-section" style="margin-left:0px;">
+          <h4 class="headers pt-3 text-center client ">Our Clients</h4>
+          <p class="text-center client c">
+            Meet the few Businesses we have served over the years
+          </p>
+
+          <div class="client-grid p-2">
+            <div class="">
+              <img src="./images/NCC_LOGO 1.svg" alt="" />
+            </div>
+            <div class="inec">
+              <img src="./images/inec logo 1.svg" alt="" />
+            </div>
+            <div class="">
+              <img src="./images/peezy 1.svg" alt="" />
+            </div>
+            <div class="">
+              <img src="./images/image 37.svg" alt="" />
+            </div>
+          </div>
+        </section> 
+        <section class=" web client-section">
+          <h4 class="headers pt-5 text-center">Our Clients</h4>
+          <p class="text-center">
+            Meet the few Businesses we have served over the years
+          </p>
+
+          <div class="client-grid p-5">
+            <div class="">
+              <img src="./images/NCC_LOGO.png" alt="" />
+            </div>
+            <div class="inc">
+              <img src="./images/inec logo.png" alt="" />
+            </div>
+            <div class="">
+              <img src="./images/peezy.png" alt="" />
+            </div>
+            <div class="">
+              <img src="./images/suntrust.png" alt="" />
+            </div>
+          </div>
+        </section>
+
+        <section class="mobile">
+          <div class="  row d-flex align-center justify-content-around mt-5 mb-4 w-100% mr-0" style="width: 100%;">
+            <div class="about about-text col-2">
+              <h4 class="headers">About Us</h4>
+              <p>
+                <strong>
+                  Hoverport Nigeria Limited is a world class Business Process
+                  Outsourcing (BPO) Company located in Nigeria.
+                </strong>
+              </p>
+
+              <p>
+                We are primarily focused on providing high quality outsourcing
+                services to satisfy today’s global demand of Businesses.
+              </p>
+
+              <p>
+                Hoverport Limited (“Hoverport”) is a company located in Abuja,
+                Nigeria to provide essential service for the private and public
+                sector in need of world-class outsourcing services in Nigeria
+              </p>
+
+              <div class=" see learn-more ">
+                <a href="#" style="width: max-content;">Learn more</a>
+                <button style="margin-left: 95px !important;" type="btn" class=" web btn  p-1 carousel-btn2" 
+                
+                >See Partners</button>
+               
+              </div>
+            </div>
+            <button style="margin-left: 0px !important; margin-right: 0px !important;
+            margin-top: 30px !important;
+            margin-bottom: 20px !important;
+            width: 80%;" type="btn" class=" mobile btn  p-1 carousel-btn2" 
+            
+            >See Partners</button>
+            <div class="hands about-img col-2">
+              <img src="./images/about-us-image.png" alt="" />
+            </div>
+            
+          </div>
+        </section>
+
+        <section>
+          <div class="web row d-flex align-center justify-content-around mt-5 mb-4" style="width:100%">
+            <div class="about-text col-4">
+              <h4 class="headers">About Us</h4>
+              <p>
+                <strong>
+                  Hoverport Nigeria Limited is a world class Business Process
+                  Outsourcing (BPO) Company located in Nigeria.
+                </strong>
+              </p>
+
+              <p>
+                We are primarily focused on providing high quality outsourcing
+                services to satisfy today’s global demand of Businesses.
+              </p>
+
+              <p>
+                Hoverport Limited (“Hoverport”) is a company located in Abuja,
+                Nigeria to provide essential service for the private and public
+                sector in need of world-class outsourcing services in Nigeria
+              </p>
+
+              <div class="learn-more mt-5">
+                <a href="#">See Partners</a>
+                <button type="btn" class="btn carousel-btn2">Contact Us</button>
+              </div>
+            </div>
+            <div class="about-img col-4">
+              <img src="./images/about-us-image.png" alt="" />
+            </div>
+          </div>
+        </section>
+
+        <section class=" web good-hands-section ">
+          <div class="row d-flex align-center justify-content-around pt-5 m-0">
+            <div class="col-2 good">
+              <p >You're in </p> <br />
+              <h5>
+                
+                Good Hands
+              </h5>
+            </div>
+
+            <div class="row d-flex align-center col-2 " style="display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 0px;
+            gap: 80px;
+            
+            width: 472px;
+            height: 114px;
+            margin-top: -29px;
+            
+            /* Inside auto layout */
+            
+            flex: none;
+            order: 1;
+            flex-grow: 0;">
+              <div class="col-2">
+                <h1>30</h1>
+                <p>Projects</p>
+              </div>
+              <div class="col-2">
+                <h1>55</h1>
+                <p>Partners</p>
+              </div>
+              <div class="col-2">
+                <h1>25K</h1>
+                <p>Projects</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="mobile good-hands-sectionw-414 mt-0" style="background-color:#fccc08 ; margin-left: 0;">
+          <div class="container pt-30 pb-30 w-100% text-center " >
+            <div class="row align-items-start ">
+              <div class="col">
+                <p>
+                  You're in <br />
+                  
+                </p>
+                <h5>Good Hands</h5>
+                <h1>30</h1>
+                <p>Projects</p>
+                <h1>55</h1>
+                <p>Partners</p>
+                <h1>25K</h1>
+                <p>Projects</p>
+              </div>
+              
+            </div>
+          </div>
+          </div>
+        </section>
+        <section class="contact-section mb-3 web" id="contact">
+          <div
+            class="row d-flex align-center justify-content-around mt-2 secondChild"
+          >
+            <div class="col-3">
+              <h6 class="">CONTACT US</h6>
+              <h4>We Would Love to Hear From You</h4>
+              <div class="location">
+                <img src="./images/Frame 31.svg" class="location-img"/>
+                <p>
+                  Ground Floor, BOA Plaza Central Business District Abuja
+                  Nigeria
+                </p>
+              </div>
+              <div class="link">
+                <img src="./images/Frame 31 (1).svg" class="link-img" />
+                <a href="mailto:info@hoverportnigeria.com"
+                  >info@hoverportnigeria.com</a
+                >
+              </div>
+            </div>
+            <div class="col-3">
+              <form class="info">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >Name</label
+                  >
+                  <input type="text" class="form-control" id="name" />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >Email</label
+                  >
+                  <input type="email" class="form-control" id="email" />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label"
+                    >Message</label
+                  >
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    rows="3"
+                  ></textarea>
+                </div>
+                <button
+                  class="btn contact-btn2"
+                  type="submit"
+                >
+                  Submit
+                </button>
+              </form>
+            </div>
+          </div>
+        </section>
+        <section class="contact-section mb-3 mobile2" id="contact">
+          <div
+            class="row frame d-flex align-center justify-content-around mt-3 secondChild"
+          >
+            <div class="contact-us">
+              <h6 class="">CONTACT US</h6>
+              <h5 style="width: 350px;">We Would Love to Hear From You</h5>
+              <div>
+                <img src="./images/Frame 31.svg" alt="" />
+                <p>
+                  Ground Floor, BOA Plaza Central Business District Abuja
+                  Nigeria
+                </p>
+              </div>
+              <div>
+                <i class="fa-regular fa-envelope"></i>
+                <a href="mailto:info@hoverportnigeria.com"
+                  >info@hoverportnigeria.com</a
+                >
+              </div>
+              <form class="massage ">
+              <div>
+                <label for="exampleFormControlInput1" class="form-label"
+                  >Name</label
+                >
+                <input type="text" class="form-control" id="name" />
+              </div>
+              <div>
+                <label for="exampleFormControlInput1" class="form-label"
+                  >Email</label
+                >
+                <input type="email" class="form-control" id="email" />
+              </div>
+              <div>
+                <label for="exampleFormControlTextarea1" class="form-label"
+                  >Message</label
+                >
+                <textarea
+                  class="form-control"
+                  id="message"
+                  rows="7"
+                ></textarea>
+              </div>
+              <button
+                class="btn contact-btn2 mt-10 "
+                type="submit"
+              >
+                Submit
+              </button>
+            </form>
+          </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <footer class="web footer fixed-bottom" >
+        <div
+          class="row footer-content d-flex align-center justify-content-around"
+        >
+          <div class="col-4 logo-socials footer-col" >
+            <div class="footer-logo">
+              <img src="./images/footer-logo.png" alt="" />
+            </div>
+            <div class="socials row d-flex align-center justify-content-around">
+              <div class="col-2 ">
+                <img src="./images/Frame 52.svg" alt="" class="footer-img" />
+              </div>
+              <div class="col-2 ">
+                <img src="./images/Frame 53.svg" alt="" class="footer-img" />
+              </div>
+              <div class="col-2 ">
+                <img src="./images/Frame 54.svg" alt="" class="footer-img" />
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-6 row d-flex align-center justify-content-between contact-services"
+          >
+            <div class="col-6 contact-div text-start">
+              <div>
+                <h6 class="">Contact Info</h6>
+                <ul>
+                  <li>
+                    Ground Floor, BOA Plaza Central Business District Abuja
+                    Nigeria.
+                  </li>
+                  <li>(Contact Number)</li>
+                  <li>Email:info@hoverportnigeria.com</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-6 services-div text-start ml-5">
+              <div>
+                <h6>Services</h6>
+                <ul>
+                  <li>Consulting</li>
+                  <li>Debt Recovery</li>
+                  <li>Call center</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <footer class="mobile footer fixed-bottom">
+        <div
+          class="row footer-content d-flex align-center justify-content-between"
+        >
+          <div class="col-6 logo-socials">
+            <div class="">
+              <img src="./images/footer-logo.png" alt="" />
+            </div>
+            <div class="socials row d-flex align-center justify-content-around">
+              <div class="col-2 circle-yellow_bg">
+                <i class="fa-brands fa-facebook-f"></i>
+              </div>
+              <div class="col-2 circle-yellow_bg">
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+              <div class="col-2 circle-yellow_bg">
+                <i class="fa-brands fa-twitter"></i>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-6 row d-flex align-center justify-content-between contact-services"
+          >
+            <div class="col-6 contact-div text-start">
+              <div>
+                <h6 class="">Contact Info</h6>
+                <ul>
+                  <li>
+                    Ground Floor, BOA Plaza Central Business District Abuja
+                    Nigeria.
+                  </li>
+                  <li>(Contact Number)</li>
+                  <li>Email:info@hoverportnigeria.com</li>
+                </ul>
+              </div>
+              <div class="serv">
+                <h6>Services</h6>
+                <ul>
+                  <li>Consulting</li>
+                  <li>Debt Recovery</li>
+                  <li>Call center</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+   
+
+  </body>
+</html>
